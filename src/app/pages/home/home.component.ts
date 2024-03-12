@@ -5,11 +5,12 @@ import { MapAndContactComponent } from './map-and-contact/map-and-contact.compon
 import { BannerComponent } from './banner/banner.component';
 import { PartnersComponent } from './partners/partners.component';
 import { NewsComponent } from './news/news.component';
+import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarouselComponent,ListProductComponent,MapAndContactComponent,BannerComponent,PartnersComponent,NewsComponent],
+  imports: [CarouselComponent,ListProductComponent,MapAndContactComponent,BannerComponent,PartnersComponent,NewsComponent,ContactComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

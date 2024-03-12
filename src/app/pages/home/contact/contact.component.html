@@ -1,0 +1,192 @@
+<section class="max-w-screen-xl mx-auto mb-2">
+    <h2 class="text-center text-2xl font-medium p-4">HÃY ĐỂ LẠI THÔNG TIN BẠN CẦN</h2>
+    <form class="p-4 border border-gray-400 rounded-md overflow-hidden shadow-md">
+        <div class="grid gap-6 mb-6 md:grid-cols-2">
+            <div>
+                <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Họ &
+                    Tên</label>
+                <input type="text" id="first_name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Vui lòng nhập họ và tên" required />
+            </div>
+            <div>
+                <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tên công
+                    ty</label>
+                <input type="text" id="company"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Vui lòng nhập tên công ty" required />
+            </div>
+            <div>
+                <label for="company_address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Địa
+                    chỉ công ty</label>
+                <input type="text" id="company_address"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Vui lòng nhập địa chỉ công ty" required />
+            </div>
+            <div>
+                <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Số điện
+                    thoại</label>
+                <input type="tel" id="phone"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="090.123.4567" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+            </div>
+            <div>
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email
+                    address</label>
+                <input type="email" id="email"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="john.doe@company.com" required />
+            </div>
+            <div>
+                <label for="count" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Số lượng</label>
+                <input type="number" id="count"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="" required />
+            </div>
+            
+            <div class="md:col-span-3">
+                
+            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Khác</label>
+            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Vui lòng nhập thông tin về sản phẩm bạn muốn đặt hàng..."></textarea>
+
+            </div>
+        </div>
+
+        <div class="grid gap-6 mb-6 md:grid-cols-3">
+            <div class="">
+                <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Sản phẩm đặt hàng</h3>
+                <ul
+                    class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="vue-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="vue-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Màng và
+                                bao bì</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="react-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="react-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">In ấn gia
+                                công</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Vật liệu màng</h3>
+                <ul
+                    class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="vue-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="vue-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2
+                                lớp</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="react-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="react-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3
+                                lớp</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="angular-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="angular-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Màng
+                                co</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="laravel-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="laravel-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Màng bảo
+                                vệ bề mặt</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="laravel-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="laravel-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Khác</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Hình thức</h3>
+                <ul
+                    class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="vue-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="vue-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ghép
+                                màng</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="react-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="react-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">In ấn gia
+                                công</label>
+                        </div>
+                    </li>
+                    <li class="w-full border-b border-gray-200 rounded-t-lg dark:border-gray-600">
+                        <div class="flex items-center ps-3">
+                            <input id="angular-checkbox" type="checkbox" value=""
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                            <label for="angular-checkbox"
+                                class="w-full py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">In ấn Qr
+                                Code truy xuất nguồn gốc sản phẩm</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center w-full">
+            <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                    <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+                    </svg>
+                    <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click vào để tải lên</span> hoặc kéo thả</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+                </div>
+                <input id="dropzone-file" type="file" class="hidden" />
+            </label>
+        </div> 
+
+        <div class="flex justify-center items-center p-4">
+            <button type="button" class="px-6 py-3.5 text-base font-medium text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-4 h-4 text-white me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                </svg>
+                Gửi cho chúng tôi
+                </button>
+    
+        </div>
+
+      
+    </form>
+
+</section>

@@ -15,5 +15,5 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     initFlowbite();
   }
-  title = 'new-date';
+  title = 'CTY TNHH ĐẠI TÂM ANH';
 }
